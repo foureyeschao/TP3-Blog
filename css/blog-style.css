@@ -1,0 +1,114 @@
+:root {
+  box-sizing: border-box;
+  font-size: calc(1vw + 0.2em);
+
+  --black: #161616;
+  --white: #ffffff;
+  --xlight-gray: #ebebeb;
+  --light-blue: #4977a5;
+  --gray: Silver;
+  --dark-green: #008742;
+
+  --font-weight: bolder;
+
+  --space-base: max(10px, 1vw);
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+ul a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.blog__header {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog__logo-wrapper {
+}
+.blog__logo-img {
+  width: max(200px, 10vw);
+}
+.blog__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6vw;
+  padding-left: 0;
+}
+
+.blog__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 45vw;
+  margin: 0 auto;
+}
+
+.element--center {
+  margin: 0 auto;
+}
+
+.msg--err {
+  color: red;
+  font-weight: 600;
+  display: block;
+}
+
+.span--modify {
+  display: inline-block;
+  padding-right: 30px;
+  font-size: 0.8rem;
+}
+
+.title {
+  font-weight: bolder;
+}
+
+
+.nav__link {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+  color: blue;
+  transition: all .1s;
+}
+
+.journal-top-bar {
+  background-color: var(--light-blue);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  gap: 3vw;
+  width: 80vw;
+  height: 2rem;
+  line-height: 1.8;
+  padding: 0 4rem;
+}
+
+.journal-gestion {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  gap: 3vw;
+  line-height: 1.8;;
+}
+  
